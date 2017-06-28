@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Number"
+		android:id="@+id/editTextNextNumberText" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+		android:inputType="number"
+		android:id="@+id/editTextNextNumber" />
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Event description"
+		android:id="@+id/editTextEventDescriptionText" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="nextLap"
+		android:inputType="text"
+		android:id="@+id/editTextEventDescription" />
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Penalty(seconds)"
+		android:id="@+id/editTextPenaltyText" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+		android:inputType="number"
+		android:id="@+id/editTextPenalty" />
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Operation status: none"
+		android:id="@+id/editTextStatus" />
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+		android:id="@+id/editTextResults" />
+</LinearLayout>
